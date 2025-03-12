@@ -24,7 +24,7 @@ export function Header() {
                 isActive ? "text-orange-300" : "text-white"
               }
             >
-              Login
+              Login/Signup
             </NavLink>
           </li>
           <li>
@@ -47,6 +47,7 @@ export function Header() {
               Contact Us
             </NavLink>
           </li>
+          
         </ul>
       </nav>
     </header>
