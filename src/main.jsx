@@ -8,6 +8,7 @@ import Login from './Component/Login'
 import About from './Component/About'
 import Home from './Component/Home'
 import Contact from './Component/Contact'
+import AddInfo from './Component/AddInfo'
 
 
 
@@ -25,7 +26,7 @@ const router = createBrowserRouter(
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <RouterProvider router ={router}/> */}
+    <RouterProvider router ={router}/>
     
   </StrictMode>,
 )
