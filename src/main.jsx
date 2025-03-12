@@ -7,6 +7,7 @@ import Layout from './Layout'
 import Login from './Component/Login'
 import About from './Component/About'
 import Home from './Component/Home'
+import Contact from './Component/Contact'
 
 
 
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
       <Route path='' element={<Home/>}/>
       <Route path='/about' element={<About/>} />
       <Route path='/login' element={<Login/>} />
+      <Route path='/contact' element={ <Contact/>}/>
     </Route>
   )
 )
